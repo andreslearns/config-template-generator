@@ -1,0 +1,300 @@
+
+! Generated Configurations
+interface GigabitEthernet0
+    description Link to app server port nic0 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 10
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet1
+    description Link to app server port nic1 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 10
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet2
+    description Link to app server port nic2 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 10
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet3
+    description Link to app server port nic3 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 10
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet4
+    description Link to app server port nic0 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet5
+    description Link to app server port nic1 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet6
+    description Link to app server port nic2 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet7
+    description Link to app server port nic3 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet8
+    description Link to app server port nic0 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet9
+    description Link to app server port nic1 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet10
+    description Link to app server port nic2 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet11
+    description Link to app server port nic3 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 11
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet12
+    description Link to app server port nic0 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 13
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet13
+    description Link to app server port nic1 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 13
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet14
+    description Link to app server port nic2 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 13
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet15
+    description Link to app server port nic3 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 13
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet16
+    description Link to app server port nic0 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 13
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet17
+    description Link to app server port nic1 for Virtual Host
+    switchport
+    switchport mode access
+    switchport access vlan 13
+    spanning-tree type edge
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet18
+    description Link to db server port nic2 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet19
+    description Link to db server port nic3 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet20
+    description Link to db server port nic0 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet21
+    description Link to db server port nic1 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet22
+    description Link to db server port nic2 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet23
+    description Link to db server port nic3 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet24
+    description Link to db server port nic0 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet25
+    description Link to monitoring server port nic1 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet26
+    description Link to monitoring server port nic2 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet27
+    description Link to monitoring server port nic3 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet28
+    description Link to monitoring server port nic0 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet29
+    description Link to monitoring server port nic1 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet30
+    description Link to monitoring server port nic2 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet31
+    description Link to monitoring server port nic3 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
+
+! Generated Configurations
+interface GigabitEthernet32
+    description Link to monitoring server port nic4 for Virtual Host
+    switchport
+    switchport mode trunk
+    no shutdown
+
