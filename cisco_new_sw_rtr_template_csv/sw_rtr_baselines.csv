@@ -1,0 +1,4 @@
+DEVICE_TYPE,HOSTNAME,DOMAIN,USERNAME,PASSWORD,SECRET_PASS,MGMT_VLAN,MGMT_MASK,MGMT_IP,WAN_INTERFACE,WAN_IP,VTY_CONN,RADIUS_SRV,RAD_KEY,NTP_SRV
+router,rtr-edx-uae,sparc.prc.com,admin,n0csolaire,bsit113092,113,255.255.255.0,172.16.1.0.254,gigabitethernet0/1,113.61.52.1,ssh,172.16.1.11,n0csecret,0.asia.pool.ntp.org
+switch,sw-edx-nyc,sparc.prc.com,admin,n0c098!,bsit113092,113,255.255.255.1,172.16.1.0.253,gigabitethernet0/2,,telnet,172.16.1.11,n0csecret,0.asia.pool.ntp.org
+switch,sw-edx-manila,sparc.prc.com,admin,n0c098!,bsit113092,114,255.255.255.2,172.16.1.0.254,gigabitethernet0/3,,both,172.16.1.12,n0csecret,0.asia.pool.ntp.org

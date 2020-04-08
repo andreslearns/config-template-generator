@@ -1,0 +1,24 @@
+! Generated Configurations 
+enable 
+ conf t
+ service password-encryption
+ hostname {{ hostname }}
+ ip domain-name {{ domain }}
+ username {{ username }}  privilege 15 password {{ password }}
+ enable secret {{ secret_pass }}
+
+
+{%- if device_type == 'switch' %}
+! Management IP address
+int vlan {{ mgmt_vlan}}
+ip address {{ mgmt_ip }} {{ mgmt_mask}}
+no shutdown
+{% else %}
+! Management IP address
+
+{% endif %}
+
+
+
+
+

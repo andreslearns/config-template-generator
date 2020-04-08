@@ -25,8 +25,7 @@ with open(source_file) as f:
             vlan = row['VLAN'],
             server = row['Server'],
             link = row['Link'],
-            purpose = row['Purpose'],
-        )
+            purpose = row['Purpose'],)
         output_configs += interface_data #appending all the values from interface_data to output_configs
 
 with open("interface_config.txt", 'w') as f:
